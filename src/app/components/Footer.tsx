@@ -130,7 +130,7 @@ function Footer() {
                   tabIndex={0}
                   onClick={() =>
                     window.open(
-                      "https://www.linkedin.com/search/results/all/?keywords=Jivan%20Karlapudi",
+                      "https://www.linkedin.com/in/jivan-karlapudi",
                       "_blank",
                     )
                   }

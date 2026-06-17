@@ -129,7 +129,7 @@ function Skills() {
                   <PenTool size={18} />
                 </div>
                 <div id="AdobeXdLabel" className="flex flex-row">
-                  Responsive UI
+                  SQL
                 </div>
               </div>
               <div
@@ -144,7 +144,7 @@ function Skills() {
                   <Ruler size={18} />
                 </div>
                 <div id="zeplinLabel" className="flex flex-row">
-                  Flexbox
+                  OOP
                 </div>
               </div>
             </div>
@@ -213,7 +213,7 @@ function Skills() {
                   id="tailwindLabel"
                   className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
                 >
-                  Tailwind CSS
+                  Redux
                 </div>
               </div>
 
@@ -229,7 +229,7 @@ function Skills() {
                   <Code2 size={18} />
                 </div>
                 <div id="javascriptLabel" className="flex flex-row">
-                  Bootstrap
+                  Tailwind CSS
                 </div>
               </div>
               <div
@@ -244,7 +244,7 @@ function Skills() {
                   <Type size={18} />
                 </div>
                 <div id="cssLabel" className="flex flex-row">
-                  Axios
+                  Bootstrap
                 </div>
               </div>
               <div
@@ -259,7 +259,7 @@ function Skills() {
                   <Type size={18} />
                 </div>
                 <div id="nextLabel" className="flex flex-row">
-                  REST API Integration
+                  API Integration
                 </div>
               </div>
             </div>
@@ -333,7 +333,7 @@ function Skills() {
                   id="sqlLabel"
                   className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
                 >
-                  MySQL
+                  JDBC
                 </div>
               </div>
               <div
@@ -348,7 +348,7 @@ function Skills() {
                   <ArrowRightLeft size={18} />
                 </div>
                 <div id="apiLabel" className="flex flex-row">
-                  RESTful APIs
+                  REST APIs
                 </div>
               </div>
               <div
@@ -363,7 +363,7 @@ function Skills() {
                   <Lightbulb size={18} />
                 </div>
                 <div id="expressLabel" className="flex flex-row">
-                  MVC Architecture
+                  Hibernate
                 </div>
               </div>
               <div
@@ -381,7 +381,7 @@ function Skills() {
                   id="prismaLabel"
                   className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
                 >
-                  Hibernate / JPA
+                  JPA
                 </div>
               </div>
             </div>
@@ -432,7 +432,7 @@ function Skills() {
                   id="vercelLabel"
                   className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
                 >
-                  Maven
+                  MongoDB
                 </div>
               </div>
               <div
@@ -450,7 +450,7 @@ function Skills() {
                   id="agileLabel"
                   className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
                 >
-                  Postman
+                  SQLite / Firebase
                 </div>
               </div>
               <div
@@ -465,7 +465,7 @@ function Skills() {
                   <Container size={18} />
                 </div>
                 <div id="dockerLabel" className="flex flex-row">
-                  Docker Basics
+                  Postman
                 </div>
               </div>
               <div
@@ -480,7 +480,7 @@ function Skills() {
                   <Grid3x3 size={18} />
                 </div>
                 <div id="jiraleLabel" className="flex flex-row">
-                  SQL
+                  Maven
                 </div>
               </div>
               <div
@@ -495,7 +495,7 @@ function Skills() {
                   <Lightbulb size={18} />
                 </div>
                 <div id="productLabel" className="flex flex-row">
-                  Problem Solving
+                  VS Code / Vite
                 </div>
               </div>
               <div
@@ -510,7 +510,7 @@ function Skills() {
                   <Wrench size={18} />
                 </div>
                 <div id="jenkinsLabel" className="flex flex-row">
-                  Team Collaboration
+                  Webpack / DSA
                 </div>
               </div>
             </div>

@@ -21,9 +21,8 @@ export default function Integration() {
           Full Stack Developer
         </h1>
         <p className="text-lg leading-relaxed text-neutral-600 dark:text-neutral-300 mb-8">
-          I build responsive React interfaces and Java Spring Boot REST APIs,
-          with a focus on clean integration, MySQL-backed data flows, and
-          maintainable project structure.
+          I build scalable web applications with React.js, Java Spring Boot,
+          MySQL, REST APIs, and API-driven frontend-backend workflows.
         </p>
         <div className="flex flex-wrap gap-4">
           <a
@@ -33,7 +32,7 @@ export default function Integration() {
             Email Me
           </a>
           <a
-            href="https://github.com/jivank111"
+            href="https://github.com/Jivank11"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-xl bg-neutral-200 dark:bg-neutral-800 px-5 py-3 font-medium hover:opacity-90 transition-opacity"

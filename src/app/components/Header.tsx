@@ -129,7 +129,7 @@ function Header() {
           tabIndex={0}
           data-aos="fade-up"
           onClick={() =>
-            window.open("https://www.linkedin.com/search/results/all/?keywords=Jivan%20Karlapudi", "_blank")
+            window.open("https://www.linkedin.com/in/jivan-karlapudi", "_blank")
           }
         >
           <Linkedin className="mr-2 pb-1" /> {tc("linkedin")}
@@ -159,7 +159,7 @@ function Header() {
           className="flex justify-center h-10 3xs:h-12 items-center bg-neutral-600 dark:bg-neutral-300 rounded-xl px-5 py-3 mb-4 text-neutral-100 dark:text-neutral-900 cursor-pointer mr-5 hover:bg-neutral-500 dark:hover:bg-neutral-400 transition-all"
           tabIndex={0}
           data-aos="fade-up"
-          onClick={() => window.open("https://github.com/jivank111", "_blank")}
+          onClick={() => window.open("https://github.com/Jivank11", "_blank")}
         >
           <Github className="mr-2" /> {tc("github")}
         </button>

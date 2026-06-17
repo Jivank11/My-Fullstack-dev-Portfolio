@@ -31,7 +31,7 @@ export async function generateMetadata({
 
   const title = "Jivan Karlapudi | Full Stack Developer";
   const description =
-    "Portfolio of Jivan Karlapudi, a full-stack developer focused on React, JavaScript, Java, Spring Boot, REST APIs, and MySQL.";
+    "Portfolio of Jivan Karlapudi, a full-stack developer focused on Java Spring Boot, React.js, REST APIs, MySQL, and scalable web applications.";
   const ogImage = `${baseUrl}/pp.jpg`;
 
   return {
@@ -80,7 +80,7 @@ export async function generateMetadata({
         url: baseUrl,
         jobTitle: "Full Stack Developer",
         description:
-          "Computer Science student and full-stack developer focused on React, Spring Boot, REST APIs, and MySQL.",
+          "Full Stack Developer with hands-on experience building scalable web applications using Java Spring Boot, React.js, MySQL, and RESTful APIs.",
         image: ogImage,
         email: "jivank1110@gmail.com",
         telephone: "+91 93071 15549",
@@ -91,18 +91,20 @@ export async function generateMetadata({
           addressCountry: "IN",
         },
         sameAs: [
-          "https://github.com/jivank111",
+          "https://www.linkedin.com/in/jivan-karlapudi",
+          "https://github.com/Jivank11",
         ],
         knowsAbout: [
           "JavaScript",
-          "TypeScript",
-          "React",
-          "Next.js",
           "Java",
+          "React",
+          "Redux",
           "Spring Boot",
-          "Node.js",
           "REST APIs",
           "MySQL",
+          "MongoDB",
+          "Firebase",
+          "Data Structures and Algorithms",
           "Web Development",
           "Full Stack Development",
         ],
