@@ -1,0 +1,162 @@
+{
+  "common": {
+    "email": "Email",
+    "copied": "Copied!",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "twitter": "X",
+    "malt": "Location",
+    "cv": "Resume",
+    "phone": "Phone",
+    "copy": "Copy"
+  },
+  "header": {
+    "greeting": "Hi there! I'm",
+    "name": "Jivan Karlapudi",
+    "jobTitle": "Full Stack Developer",
+    "description": "Computer Science student and full-stack developer focused on React frontends, Spring Boot APIs, clean UI, and reliable database-backed web applications."
+  },
+  "footer": {
+    "title": "Interested in building something together?",
+    "description": "I enjoy turning practical ideas into responsive interfaces and maintainable backend services. Reach out for internships, junior full-stack roles, or project collaboration."
+  },
+  "skills": {
+    "title": "Skills",
+    "intro": "A practical full-stack toolkit across frontend, backend, APIs, databases, and delivery.",
+    "design": "UI",
+    "frontend": "Front-end",
+    "backend": "Back-end",
+    "other": "Other"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Selected work from frontend, backend, and full-stack learning projects.",
+    "othersTitle": "More Work",
+    "viewProject": "View Project",
+    "previousProjectAriaLabel": "Previous Project",
+    "nextProjectAriaLabel": "Next Project",
+    "goToProjectAriaLabel": "Go to project",
+    "viewProjectAriaLabel": "View project",
+    "openProject": "Open project",
+    "codeMaster": {
+      "name": "Portfolio Website",
+      "description": "A responsive portfolio built with Next.js and Tailwind CSS to present projects, skills, education, and contact details."
+    },
+    "allaw": {
+      "name": "Instant Meaning Finder",
+      "description": "A <strong>Chrome extension</strong> that displays word meanings instantly through a polished popup UI built with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.<break></break><break></break>I integrated a third-party dictionary <strong>API</strong> with the Fetch API, handled async loading and error states, and organized the extension UI with a modular component-style structure."
+    },
+    "truthify": {
+      "name": "Store Management Web App",
+      "description": "A responsive web application for managing product and student records with dynamic tables, forms, search filtering, and live CRUD updates.<break></break><break></break>I built the frontend in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, consumed <strong>Spring Boot REST APIs</strong> with Axios, and focused on clean browser-side data flows."
+    },
+    "legalConstat": {
+      "name": "Backend API Documentation",
+      "description": "Postman-tested API request and response documentation to support smooth frontend integration."
+    },
+    "smartflow": {
+      "name": "Spring Boot REST API System",
+      "description": "A backend support project centered on <strong>RESTful API</strong> design, request-response cycles, and clean endpoint contracts for frontend teams.<break></break><break></break>I worked with <strong>Spring Boot</strong>, tested endpoints in <strong>Postman</strong>, documented formats, and strengthened my backend-aware frontend collaboration workflow."
+    },
+    "decorNature": {
+      "name": "Responsive UI Layouts",
+      "description": "Reusable responsive page layouts built for mobile and desktop using semantic HTML, CSS, and JavaScript."
+    },
+    "aimoto": {
+      "name": "Java CRUD API",
+      "description": "A <strong>Spring Boot</strong> API using layered architecture for CRUD operations, validation, and database persistence with <strong>JPA</strong> and <strong>MySQL</strong>.<break></break><break></break>The project strengthened my understanding of MVC architecture, SQL-backed services, and maintainable backend code."
+    },
+    "liic": {
+      "name": "Git Collaboration Practice",
+      "description": "Team-based version control workflow using Git and GitHub while collaborating on frontend logic and API integration."
+    },
+    "teslaApp": {
+      "name": "API Testing Workspace",
+      "description": "A Postman workspace for validating REST endpoints, edge cases, request payloads, and response formats."
+    },
+    "emmausConnect": {
+      "name": "Student Records Module",
+      "description": "CRUD screens and backend services for managing student records and operational data."
+    },
+    "wilderGame": {
+      "name": "JavaScript UI Practice",
+      "description": "Interactive browser UI exercises focused on DOM updates, forms, filtering, and responsive behavior."
+    },
+    "legalDirectory": {
+      "name": "Database Integration",
+      "description": "MySQL-backed data persistence practice for Java and Spring Boot web applications."
+    }
+  },
+  "timeline": {
+    "title": "Journey",
+    "intro": "My education, project work, and growth as a full-stack developer.",
+    "experiences": [
+      {
+        "company": "GH Raisoni College of Engineering & Management, Pune",
+        "position": "B.Tech in Computer Science Engineering",
+        "period": "2023 -> 2027",
+        "description": "Building a strong computer science foundation through coursework, projects, and hands-on web development practice."
+      },
+      {
+        "company": "Frontend Development",
+        "position": "React and JavaScript Projects",
+        "period": "2024 -> Present",
+        "description": "Created responsive, user-friendly interfaces with React, JavaScript ES6+, HTML5, CSS3, Tailwind CSS, Bootstrap, Flexbox, and responsive design."
+      },
+      {
+        "company": "Backend Development",
+        "position": "Java Spring Boot API Practice",
+        "period": "2024 -> Present",
+        "description": "Built RESTful APIs with Java, Spring Boot, MVC architecture, JDBC, Hibernate/JPA, MySQL, Maven, and Postman API testing."
+      },
+      {
+        "company": "Instant Meaning Finder",
+        "position": "Chrome Extension Project",
+        "period": "2025",
+        "description": "Developed a browser extension with a polished popup UI, dictionary API integration, async data handling, and clean error states."
+      },
+      {
+        "company": "Store Management Web Application",
+        "position": "Frontend and API Integration",
+        "period": "2025",
+        "description": "Built dynamic tables, forms, search filtering, live CRUD updates, and Axios-based integration with Spring Boot REST endpoints."
+      },
+      {
+        "company": "Spring Boot REST API System",
+        "position": "Backend Support Project",
+        "period": "2025",
+        "description": "Designed layered REST APIs, implemented CRUD operations, persisted data with JPA and MySQL, and documented endpoints for frontend use."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Do you have any questions?",
+    "intro": "A quick look at how I work and what I am focused on.",
+    "items": [
+      {
+        "question": "What kind of role am I looking for?",
+        "answer": "I am looking for internships, junior developer opportunities, and project collaborations where I can contribute across React frontend work and Java Spring Boot backend development."
+      },
+      {
+        "question": "What is my strongest technical focus?",
+        "answer": "My focus is full-stack web development: responsive interfaces, REST API integration, Spring Boot services, MySQL persistence, and clean request-response workflows."
+      },
+      {
+        "question": "How do I approach frontend work?",
+        "answer": "I build responsive, user-friendly interfaces with attention to clean layout, reusable structure, performance, and smooth API-driven data states."
+      },
+      {
+        "question": "How do I approach backend work?",
+        "answer": "I design clear REST endpoints, test them with Postman, use layered Spring Boot architecture, and keep database operations understandable and maintainable."
+      },
+      {
+        "question": "What makes my profile useful to a team?",
+        "answer": "I bring frontend skill with backend awareness, clear communication, problem-solving, responsibility, and a continuous learning mindset."
+      }
+    ]
+  },
+  "metadata": {
+    "title": "Jivan Karlapudi | Full Stack Developer",
+    "description": "Portfolio of Jivan Karlapudi, a full-stack developer focused on React, JavaScript, Java, Spring Boot, REST APIs, and MySQL."
+  }
+}

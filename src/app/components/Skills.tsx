@@ -1,0 +1,524 @@
+"use client";
+
+import React, { useEffect } from "react";
+import { useTranslations } from "next-intl";
+import {
+  Code2,
+  Figma,
+  PenTool,
+  Ruler,
+  Brush,
+  Type,
+  Triangle,
+  Pyramid,
+  Zap,
+  Database,
+  Server,
+  ArrowRightLeft,
+  Lightbulb,
+  Github,
+  Layers,
+  Package,
+  Wrench,
+  Grid3x3,
+  Container,
+} from "lucide-react";
+import "aos/dist/aos.css";
+import AOS from "aos";
+
+function Skills() {
+  const t = useTranslations("skills");
+
+  useEffect(() => {
+    AOS.init({
+      duration: 300,
+    });
+  }, []);
+  return (
+    <div
+      id="skillsGlobalContainer"
+      className="flex flex-col w-[815px] xs:w-full justify-center items-center px-4 lg:px-0"
+    >
+      <div
+        id="skillsTitleTopContainer"
+        className="w-full text-neutral-700 dark:text-neutral-300 font-bold text-2xl flex flex-row items-center mb-2"
+        data-aos="fade-up"
+      >
+        <div id="skillsIcon" className="w-12">
+          <Code2 size={32} className="mr-6 text-5xl" />
+        </div>
+        <h2 id="skillsTitle" className="text-2xl 3xs:text-3xl">
+          {t("title")}
+        </h2>
+      </div>
+      <div id="skillsTitleBotContainer" className="w-full flex flex-row">
+        <div id="skillsIconBlank" className="w-12" />
+        <div
+          id="skillsIntroContainer"
+          className="flex flex-row text-base 3xs:text-xl text-neutral-400 dark:text-neutral-500 mb-16 leading-tight"
+          data-aos="fade-up"
+        >
+          {t("intro")}
+        </div>
+      </div>
+      <div
+        id="skillsContainer"
+        className="w-full flex flex-col md:flex-row justify-center"
+      >
+        <div
+          id="skillsSubContainer1"
+          className="flex flex-col 2xs:flex-row items-center 2xs:items-start 2xs:justify-around w-full md:w-1/2"
+        >
+          <div id="designContainer" className="flex flex-col w-40 mb-8 md:mb-0">
+            <h3
+              id="designTitle"
+              className="text-xl font-bold  mb-5 text-neutral-700 dark:text-neutral-300"
+              data-aos="fade-up"
+            >
+              {t("design")}
+            </h3>
+            <div
+              id="desigSkillsContainer"
+              className="flex flex-col  text-base text-neutral-600 dark:text-neutral-400"
+            >
+              <div
+                id="figma"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="figmaIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-xl justify-center"
+                >
+                  <Figma size={20} />
+                </div>
+                <div
+                  id="figmaLabel"
+                  className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
+                >
+                  HTML5
+                </div>
+              </div>
+              <div
+                id="storybook"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="storybookIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-xl justify-center"
+                >
+                  <Code2 size={20} />
+                </div>
+                <div
+                  id="storybookLabel"
+                  className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
+                >
+                  CSS3
+                </div>
+              </div>
+              <div
+                id="AdobeXd"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="AdobeXdIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-xl justify-center"
+                >
+                  <PenTool size={18} />
+                </div>
+                <div id="AdobeXdLabel" className="flex flex-row">
+                  Responsive UI
+                </div>
+              </div>
+              <div
+                id="zeplin"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="zeplinIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-xl justify-center"
+                >
+                  <Ruler size={18} />
+                </div>
+                <div id="zeplinLabel" className="flex flex-row">
+                  Flexbox
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="frontContainer" className="flex flex-col w-40 mb-8 md:mb-0">
+            <h3
+              id="frontTitle"
+              className="text-xl font-bold  mb-5 text-neutral-700 dark:text-neutral-300"
+              data-aos="fade-up"
+            >
+              {t("frontend")}
+            </h3>
+            <div
+              id="frontSkillsContainer"
+              className="flex flex-col text-base text-neutral-600 dark:text-neutral-400"
+            >
+              <div
+                id="next"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="nextIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-lg justify-center"
+                >
+                  <Zap size={18} />
+                </div>
+                <div
+                  id="nextLabel"
+                  className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
+                >
+                  React.js
+                </div>
+              </div>
+              <div
+                id="react"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="reactIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-xl justify-center"
+                >
+                  <Code2 size={18} />
+                </div>
+                <div
+                  id="reactLabel"
+                  className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
+                >
+                  JavaScript ES6+
+                </div>
+              </div>
+              <div
+                id="tailwind"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="tailwindIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-xl justify-center"
+                >
+                  <Brush size={18} />
+                </div>
+                <div
+                  id="tailwindLabel"
+                  className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
+                >
+                  Tailwind CSS
+                </div>
+              </div>
+
+              <div
+                id="javascript"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="javascriptIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-xl justify-center"
+                >
+                  <Code2 size={18} />
+                </div>
+                <div id="javascriptLabel" className="flex flex-row">
+                  Bootstrap
+                </div>
+              </div>
+              <div
+                id="css"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="cssIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-xl justify-center"
+                >
+                  <Type size={18} />
+                </div>
+                <div id="cssLabel" className="flex flex-row">
+                  Axios
+                </div>
+              </div>
+              <div
+                id="next"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="nextIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-xl justify-center"
+                >
+                  <Type size={18} />
+                </div>
+                <div id="nextLabel" className="flex flex-row">
+                  REST API Integration
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="skillsSubContainer2"
+          className="flex flex-col 2xs:flex-row items-center 2xs:items-start 2xs:justify-around w-full md:w-1/2"
+        >
+          <div id="backContainer" className="flex flex-col w-40 mb-8 md:mb-0">
+            <h3
+              id="backTitle"
+              className="text-xl font-bold mb-5 text-neutral-700 dark:text-neutral-300"
+              data-aos="fade-up"
+            >
+              {t("backend")}
+            </h3>
+            <div
+              id="backSkillsContainer"
+              className="flex flex-col text-base text-neutral-600 dark:text-neutral-400"
+            >
+              <div
+                id="node"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="nodeIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-xl justify-center"
+                >
+                  <Package size={18} />
+                </div>
+                <div
+                  id="reactLabel"
+                  className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
+                >
+                  Java Core
+                </div>
+              </div>
+              <div
+                id="postgresql"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="postgresqlIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-lg justify-center"
+                >
+                  <Server size={18} />
+                </div>
+                <div
+                  id="postgresqlLabel"
+                  className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
+                >
+                  Spring Boot
+                </div>
+              </div>
+              <div
+                id="sql"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="sqlIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-lg justify-center"
+                >
+                  <Database size={18} />
+                </div>
+                <div
+                  id="sqlLabel"
+                  className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
+                >
+                  MySQL
+                </div>
+              </div>
+              <div
+                id="api"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="apiIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-md justify-center"
+                >
+                  <ArrowRightLeft size={18} />
+                </div>
+                <div id="apiLabel" className="flex flex-row">
+                  RESTful APIs
+                </div>
+              </div>
+              <div
+                id="express"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="expressIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-md justify-center"
+                >
+                  <Lightbulb size={18} />
+                </div>
+                <div id="expressLabel" className="flex flex-row">
+                  MVC Architecture
+                </div>
+              </div>
+              <div
+                id="prisma"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="prismaIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-md justify-center"
+                >
+                  <Pyramid size={18} />
+                </div>
+                <div
+                  id="prismaLabel"
+                  className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
+                >
+                  Hibernate / JPA
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="otherContainer" className="flex flex-col w-40 mb-8 md:mb-0">
+            <h3
+              id="otherTitle"
+              className="text-xl font-bold mb-5 text-neutral-700 dark:text-neutral-300"
+              data-aos="fade-up"
+            >
+              {t("other")}
+            </h3>
+            <div
+              id="otherSkillsContainer"
+              className="flex flex-col text-base text-neutral-600 dark:text-neutral-400"
+            >
+              <div
+                id="git"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="gitIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-xl justify-center"
+                >
+                  <Github size={18} />
+                </div>
+                <div
+                  id="gitLabel"
+                  className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
+                >
+                  Git/GitHub
+                </div>
+              </div>
+              <div
+                id="tailwind"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="vercelIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-xl justify-center"
+                >
+                  <Triangle />
+                </div>
+                <div
+                  id="vercelLabel"
+                  className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
+                >
+                  Maven
+                </div>
+              </div>
+              <div
+                id="agile"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="agileIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-lg justify-center"
+                >
+                  <Code2 size={18} />
+                </div>
+                <div
+                  id="agileLabel"
+                  className="flex flex-row font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400"
+                >
+                  Postman
+                </div>
+              </div>
+              <div
+                id="docker"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="dockerIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-lg justify-center"
+                >
+                  <Container size={18} />
+                </div>
+                <div id="dockerLabel" className="flex flex-row">
+                  Docker Basics
+                </div>
+              </div>
+              <div
+                id="jira"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="jiraIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-lg justify-center"
+                >
+                  <Grid3x3 size={18} />
+                </div>
+                <div id="jiraleLabel" className="flex flex-row">
+                  SQL
+                </div>
+              </div>
+              <div
+                id="product"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="productIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-lg justify-center"
+                >
+                  <Lightbulb size={18} />
+                </div>
+                <div id="productLabel" className="flex flex-row">
+                  Problem Solving
+                </div>
+              </div>
+              <div
+                id="jenkins"
+                className="flex flex-row justify-start mb-1"
+                data-aos="fade-up"
+              >
+                <div
+                  id="jenkinsIcon"
+                  className="flex flex-row items-center mr-2 w-6 text-md justify-center"
+                >
+                  <Wrench size={18} />
+                </div>
+                <div id="jenkinsLabel" className="flex flex-row">
+                  Team Collaboration
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Skills;
