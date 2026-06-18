@@ -58,6 +58,11 @@ const technologyMeta: Record<
   springboot: { label: "Spring Boot", shortLabel: "Spring", icon: <Server size={16} /> },
   postman: { label: "Postman", icon: <Braces size={16} /> },
   github: { label: "GitHub", icon: <Code size={16} /> },
+  gemini: { label: "Gemini API", shortLabel: "Gemini", icon: <Braces size={16} /> },
+  redux: { label: "Redux", icon: <Code size={16} /> },
+  sqlite: { label: "SQLite", icon: <Database size={16} /> },
+  firebase: { label: "Firebase", icon: <Database size={16} /> },
+  dsa: { label: "DSA", icon: <Code size={16} /> },
   symfony: { label: "Symfony" },
   css: { label: "CSS" },
   recharts: { label: "Recharts", icon: <LineChart size={16} /> },
@@ -129,6 +134,11 @@ type TechnologyId =
   | "springboot"
   | "postman"
   | "github"
+  | "gemini"
+  | "redux"
+  | "sqlite"
+  | "firebase"
+  | "dsa"
   | "symfony"
   | "css"
   | "recharts";
@@ -155,8 +165,8 @@ const projects: Project[] = [
     i18nDescriptionKey: "allaw.description",
     url: undefined,
     imageSrc: "/codemaster.png",
-    imageAlt: "Instant Meaning Finder project preview",
-    technologies: ["javascript", "css", "json"],
+    imageAlt: "AI Assistant Chrome Extension project preview",
+    technologies: ["javascript", "css", "gemini"],
     kind: "extension",
   },
   {
@@ -167,8 +177,8 @@ const projects: Project[] = [
     i18nDescriptionKey: "truthify.description",
     url: undefined,
     imageSrc: "/smartflow.png",
-    imageAlt: "Store Management Web App project preview",
-    technologies: ["javascript", "css", "mysql"],
+    imageAlt: "Inventory Management Application project preview",
+    technologies: ["react", "springboot", "mysql"],
     kind: "Web app",
   },
   {
@@ -179,7 +189,7 @@ const projects: Project[] = [
     i18nDescriptionKey: "aimoto.description",
     url: undefined,
     imageSrc: "/quickflow.png",
-    imageAlt: "Java CRUD API project preview",
+    imageAlt: "Spring Boot CRUD Services project preview",
     technologies: ["java", "springboot", "mysql"],
     kind: "tool",
   },
@@ -191,8 +201,8 @@ const projects: Project[] = [
     i18nDescriptionKey: "smartflow.description",
     url: undefined,
     imageSrc: "/truthify.png",
-    imageAlt: "Spring Boot REST API System project preview",
-    technologies: ["java", "springboot", "postman"],
+    imageAlt: "Time Locus Habit Tracker project preview",
+    technologies: ["java", "springboot", "mysql", "postman"],
     kind: "Web app",
   },
   {
@@ -204,7 +214,7 @@ const projects: Project[] = [
     url: undefined,
     imageSrc: "/codemaster.png",
     imageAlt: "Screenshot of the CodeMaster project",
-    technologies: ["nextjs", "react", "tailwind", "typescript"],
+    technologies: ["react", "tailwind", "javascript"],
     kind: "Web app",
   },
   {
@@ -216,7 +226,7 @@ const projects: Project[] = [
     url: undefined,
     imageSrc: "/decornature.png",
     imageAlt: "Screenshot of the Decor Nature project",
-    technologies: ["javascript", "css", "tailwind"],
+    technologies: ["react", "javascript", "css"],
     kind: "showcase",
   },
   {
@@ -252,7 +262,7 @@ const projects: Project[] = [
     url: undefined,
     imageSrc: "/wildersgame.jpg",
     imageAlt: "Screenshot of the Wilder Game project",
-    technologies: ["react", "javascript", "nodejs", "mysql"],
+    technologies: ["dsa", "java", "javascript"],
     kind: "showcase",
   },
   {
@@ -264,7 +274,7 @@ const projects: Project[] = [
     url: undefined,
     imageSrc: "/quickflow.png",
     imageAlt: "Screenshot of the Quickflow project",
-    technologies: ["react", "nodejs", "mysql", "tailwind"],
+    technologies: ["mysql", "mongodb", "sqlite", "firebase"],
     kind: "showcase",
   },
   {
@@ -276,7 +286,7 @@ const projects: Project[] = [
     url: undefined,
     imageSrc: "/legalconstat.png",
     imageAlt: "Legal Constat project placeholder",
-    technologies: ["react", "typescript", "symfony", "css"],
+    technologies: ["postman", "json", "springboot"],
     kind: "tool",
   },
   {
@@ -288,7 +298,7 @@ const projects: Project[] = [
     url: undefined,
     imageSrc: "/emmausconnect.png",
     imageAlt: "Screenshot of the Emmaus Connect project",
-    technologies: ["react", "javascript", "json"],
+    technologies: ["github", "react", "springboot"],
     kind: "showcase",
   },
 ];
